@@ -76,7 +76,7 @@ function Search({ refProp }) {
   };
   return (
     <div className="w-[100%] pt-4 bg-light-grey relative">
-      <div className="w-[80%] mx-auto mt-10  bg-violet p-8 text-center rounded-md  relative ">
+      <div className="w-[80%] mx-auto mt-2  bg-violet p-8 text-center rounded-md  relative ">
         <form className="flex flex-col md:flex-row items-center" onSubmit={urlShorten}
 >
           <input
