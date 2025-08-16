@@ -62,10 +62,10 @@ const Hero = ({ scrollToSearch }) => {
           </nav>
         </div>
 
-        <section className="flex flex-col-reverse md:flex-row gap-[3rem] mb-6">
-          <div className="hero-1 text-center md:text-left basis-2/5 md:basis-3/5 md:mt-10">
-            <h1>More than just shorter links</h1>
-            <p className="text-xs md:text-sm text-[grey] mb-6">
+        <section className="flex flex-col-reverse items-center md:flex-row gap-[3rem] mb-6">
+          <div className="hero-1 text-center md:text-left basis-2/5 md:basis-3/5 md:mt-12">
+            <h1>More than just <br /> shorter links</h1>
+            <p className="text-xs md:text-lg text-[grey] mb-6">
               Build your brand's recognition and get detailed insights on how
               your links are performing.{" "}
             </p>
@@ -81,7 +81,7 @@ const Hero = ({ scrollToSearch }) => {
 
           <div className="hero-2 ">
             <img
-              className="w-[80%] md:w-[90%]"
+              className="w-[90%] md:w-[100%]"
               src="/assets/images/illustration-working.svg"
               alt="illustration"
             />
