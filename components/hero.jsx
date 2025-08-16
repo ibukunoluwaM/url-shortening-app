@@ -21,7 +21,7 @@ const Hero = ({ scrollToSearch }) => {
           </div>
 
           {/* navigation links */}
-          <nav className={`${ isOpen ? "block w-[90%] bg-violet  p-6 mx-auto text-center absolute top-[50px] rounded-lg" : "hidden p-0text-left  bg-violet md:bg-transparent  md:relative basis-3/4  md:flex  text-sm"}`}>
+          <nav className={`${ isOpen ? "block w-[90%] bg-violet  p-6 mx-auto text-center absolute top-[50px] rounded-lg" : "hidden p-0 text-left  bg-violet md:bg-transparent  md:relative basis-3/4  md:flex  text-sm"}`}>
             
 
             {/* first set */}
@@ -63,9 +63,9 @@ const Hero = ({ scrollToSearch }) => {
         </div>
 
         <section className="flex flex-col-reverse md:flex-row gap-[3rem] mb-6">
-          <div className="hero-1 text-center md:text-left basis-2/5 md:basis-3/5">
+          <div className="hero-1 text-center md:text-left basis-2/5 md:basis-3/5 md:mt-10">
             <h1>More than just shorter links</h1>
-            <p className="text-sm md:text-lg text-[grey] mb-6">
+            <p className="text-xs md:text-sm text-[grey] mb-6">
               Build your brand's recognition and get detailed insights on how
               your links are performing.{" "}
             </p>
@@ -81,7 +81,7 @@ const Hero = ({ scrollToSearch }) => {
 
           <div className="hero-2 ">
             <img
-              className="w-[70%] md:w-[80%]"
+              className="w-[80%] md:w-[90%]"
               src="/assets/images/illustration-working.svg"
               alt="illustration"
             />
