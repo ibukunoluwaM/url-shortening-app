@@ -18,7 +18,7 @@ function Stats() {
         <div className=" bg-white p-4 rounded-md mt-4 md:mt-0 shadow md:translate-y-0 relative ">
           <div className="bg-violet w-[50px] h-[50px] flex justify-center items-center rounded-full absolute top-[-20px]">
             <img
-              src="./src/assets/images/icon-brand-recognition.svg"
+              src="/assets/images/icon-brand-recognition.svg"
               alt="brand recognition"
               className="w-[30px] h-[30px]"
             />
@@ -35,7 +35,7 @@ function Stats() {
         <div className="bg-white p-6 rounded-md mt-4 md:mt-6 shadow md:translate-y-4 relative">
           <div className="bg-violet w-[50px] h-[50px] flex justify-center items-center rounded-full absolute top-[-20px]">
             <img
-              src="./src/assets/images/icon-detailed-records.svg"
+              src="/assets/images/icon-detailed-records.svg"
               alt="detailed records"
               className="w-[30px] h-[30px]"
             />
@@ -53,7 +53,7 @@ function Stats() {
         <div className="bg-white p-8 rounded-md mt-4 md:mt-10 shadow md:translate-y-8 relative">
           <div className="bg-violet w-[50px] h-[50px] flex justify-center items-center rounded-full absolute top-[-20px]">
             <img
-              src="./src/assets/images/icon-fully-customizable.svg"
+              src="/assets/images/icon-fully-customizable.svg"
               alt="fully customizable"
               className="w-[30px] h-[30px]"
             />

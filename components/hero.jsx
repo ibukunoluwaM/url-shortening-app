@@ -12,11 +12,11 @@ const Hero = ({ scrollToSearch }) => {
         <div className="flex  pt-4">
           <div className="w-[100%] flex justify-between md:basis-1/4 mb-[6rem]">
             <img
-              src="./src/assets/images/logo.svg"
+              src="/assets/images/logo.svg"
               className="w-[4.5rem] cursor-pointer"
             />
             <button>
-              <img className="cursor-pointer md:hidden" src="./src/assets/images/icon-menu.svg" onClick={()=> setIsOpen(!isOpen)}/>
+              <img className="cursor-pointer md:hidden" src="/assets/images/icon-menu.svg" onClick={()=> setIsOpen(!isOpen)}/>
             </button>
           </div>
 
@@ -82,7 +82,7 @@ const Hero = ({ scrollToSearch }) => {
           <div className="hero-2 ">
             <img
               className="w-[70%] md:w-[80%]"
-              src="./src/assets/images/illustration-working.svg"
+              src="/assets/images/illustration-working.svg"
               alt="illustration"
             />
           </div>

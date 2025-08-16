@@ -46,7 +46,7 @@ footer .flex img{
 
 @layer utilities {
   .boost-img {
-    background-image: url(./src/assets/images/bg-shorten-desktop.svg);
+    background-image: url(/assets/images/bg-shorten-desktop.svg);
   }
 
   .copyBtn {

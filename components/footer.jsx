@@ -25,19 +25,17 @@ function Footer() {
         <ul>
             <h4>Company</h4>
             <li><a href='#'>About</a></li>
-            <li><a href='#'>Oir Team</a></li>
+            <li><a href='#'>Our Team</a></li>
             <li><a href='#'>Carrers</a></li>
             <li><a href='#'>Contact</a></li>
         </ul>
        </div>
 
        <div className='flex gap-4 mt-6'>
-        <img src='./src/assets/images/icon-facebook.svg'/>
-        <img src='./src/assets/images/icon-twitter.svg'/>
-        <img src='./src/assets/images/icon-pinterest.svg'/>
-        <img src='./src/assets/images/icon-instagram.svg'/>
-
-
+        <img src='/assets/images/icon-facebook.svg'/>
+        <img src='/assets/images/icon-twitter.svg'/>
+        <img src='/assets/images/icon-pinterest.svg'/>
+        <img src='/assets/images/icon-instagram.svg'/>
        </div>
     </footer>
   )
